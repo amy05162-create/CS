@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MyFirstWinForm/MyFirstWinForm.csproj" />
+  <Project Path="SimpleCalculator01/SimpleCalculator01.csproj" />
+  <Project Path="SimpleCalculator03/SimpleCalculator03.csproj" Id="2b680b15-0b06-4510-8be0-f84a0f336163" />
+</Solution>
