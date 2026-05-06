@@ -36,9 +36,10 @@
             // 
             button1.Font = new Font("微軟正黑體", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 136);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(174, 185);
+            button1.Location = new Point(135, 146);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(73, 23);
             button1.TabIndex = 0;
             button1.Text = "按我!";
             button1.UseVisualStyleBackColor = true;
@@ -46,17 +47,17 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowText;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(432, 253);
+            ClientSize = new Size(336, 200);
             Controls.Add(button1);
             ForeColor = SystemColors.ControlLightLight;
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
-            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
 
