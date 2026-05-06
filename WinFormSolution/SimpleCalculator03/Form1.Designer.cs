@@ -33,6 +33,7 @@
             textBox1 = new TextBox();
             button2 = new Button();
             button1 = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             SuspendLayout();
             // 
             // label1
@@ -43,6 +44,7 @@
             label1.Size = new Size(18, 19);
             label1.TabIndex = 9;
             label1.Text = "0";
+            label1.Click += label1_Click;
             // 
             // textBox2
             // 
@@ -66,6 +68,7 @@
             button2.TabIndex = 6;
             button2.Text = "減";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -75,6 +78,7 @@
             button1.TabIndex = 5;
             button1.Text = "加";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -99,5 +103,6 @@
         private TextBox textBox1;
         private Button button2;
         private Button button1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
